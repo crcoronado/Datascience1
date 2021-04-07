@@ -2,14 +2,14 @@ Técnicas de Aprendizaje Supervisado para medir el puntaje de un vino a partir d
 
 
 Tratamiento de datos
-Nombre archivo: Analisis_WineMag_Dataset
+Nombre archivo: Winemag
 
 Librerías y métodos
 	- pandas
 	- numpy
 	- matplotlib
 	- seaborn
-	- geopy (Nominatim)
+	- geopy (geocoders)
 
 
 EDA
@@ -55,5 +55,18 @@ svm: SVC, SVR, LinearSVR
 tree: tree, DecisionTreeRegressor
 
 
+Datasets:
+o	winemag-data-130k-v2.csv
+o	temp_anual_2000_2006.csv
+o	temp_anual_2007_2013.csv
+o	temp_maxima_2000_2006.csv
+o	temp_maxima_2007_2012.csv
+o	temp_minima_2000_2006.csv
+o	temp_minima_2007_2012.csv
+o	rainfall_anual_2000_2006.csv
+o	rainfall_anual_2007_2012.csv
+o	PET_anual_2000_2006.csv
+o	PET_anual_2007_2012.csv
+o	Wine_reviews_climate_prediction.csv
 
 
